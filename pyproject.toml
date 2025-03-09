@@ -1,0 +1,21 @@
+[project]
+name = "sphinx-collector"
+version = "0.0.0"
+description = "A sphinx extension to collect info from md files in a given directory"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "BSD"}
+authors = [
+    {name = "Yuri Ximenes", email = "yx.dev@gmx.ie"},
+]
+
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel",
+    "sphinx",
+    "myst-parser",
+    "pyyaml"
+]
+build-backend = "setuptools.build_meta"
+    
